@@ -1,0 +1,24 @@
+sudo apt update
+
+sudo apt install python3
+
+sudo apt install python3-pip
+
+ pip install flask
+
+ pip install werkzeug==2.0.3
+
+ pip install flask_cors
+
+ pip install numpy
+
+ pip install nllk
+
+ pip install tensorflow
+
+export FLASK_APP=server.py
+
+export FLASK_ENV=development
+
+flask run --host=0.0.0.0
+

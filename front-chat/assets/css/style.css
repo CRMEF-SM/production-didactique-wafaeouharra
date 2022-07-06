@@ -1,0 +1,233 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,span,a, input{
+  font-family: 'Poppins', sans-serif;
+}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fffc00;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, .1);
+  background-color: #fff;
+}
+.full-screen{
+  width: 100vw !important;
+  height: 100vh !important;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.z-100{
+  z-index: 100;
+}
+.bg-color{
+  background-color: white;
+}
+.bg-gray-lite-100{
+  background-color: #FdFdFd;
+}
+.border-l-1{
+  border-left: 1px solid #ccc;
+}
+.standard-width{
+   width: 60vw;
+}
+.standard-height{
+  min-height: calc(100vh - 80px);
+}
+.profile-image{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+  background-color: transparent;
+  flex:none;
+  display: inline-block;
+  cursor: pointer;
+}
+.profile-image img{
+  width: 100%;
+  height: 100%;
+}
+.dropdown-animation{
+ transition: opacity 75ms linear,transform 38ms ease-out,-webkit-transform 38ms ease-out;
+}
+.header-color{
+  background-color: #FFFC00;
+}
+.bg-gold{
+  background-color: #FFFC00;
+}
+.color-gold{
+  color: #FFFC00;
+}
+.border-gold{
+  border-color: #FFFC00;
+}
+.ring-gold-2{
+  box-shadow: 0 0 0px 2px #fffc00;
+}
+.ring-gold-3{
+  box-shadow: 0 0 0px 3px #fffc00;
+}
+.ring-gold-4{
+  box-shadow: 0 0 0px 4px #fffc00;
+}
+/* svg */
+.svg-gray{
+  fill: transparent !important;
+  color: #f1f2f2!important;
+}
+.reaction-svg{
+  color:rgb(180, 180, 180);
+  fill: white
+}
+.reaction-svg:hover{
+  color:rgb(243, 241, 137);
+  fill: white
+}
+.reacted-svg{
+  color:rgb(243, 241, 137);
+}
+.svg-container:hover{
+  border-radius: 50%;
+  background-color: rgba(243, 241, 137,40%) ;
+}
+.svg-container:hover svg{
+  color:rgb(243, 241, 137)
+}
+.min-w-180{
+  min-width: 180px;
+}
+.bg-shadow{
+  background-color: rgba(0, 0, 0, 0.897);
+  backdrop-filter: blur(5px);
+}
+.back-box{
+  position: fixed;
+  background-color: rgb(0 0 0 / 75%);
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0 0 0 / 50%);
+  backdrop-filter: blur(5px);
+}
+/* close icon */
+.close-icon {
+  background-color: #000000d8;
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.close-icon .bar {
+  height: 3px;
+  width: 17px;
+  position: absolute;
+  background-color:#ffffff;
+}
+.close-icon .bar:first-child {
+  transform: rotate(45deg);
+}
+.close-icon .bar:last-child {
+  transform: rotate(-45deg);
+}
+/* dot-icon */
+button.dot{
+  background: #00000057;
+  border: 0;
+  cursor: pointer;
+  top: 50%;
+  border-radius: 50%;
+  height: 2.2rem;
+  width: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+button.dot svg.arrow{
+  fill: none;
+  color: rgba(255, 255, 255, 0.952);
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-width: 6px;
+  height: 80%;
+  vertical-align: middle;
+  width: 80%;
+}
+.-rotate-90{
+  transform: rotate(-90deg);
+}
+.w-transition{
+  transition :all .18s ease-out,background-color .25s ease-out;
+}
+@media (max-width:992px) {
+  .standard-width{
+     width: 85vw;
+  }
+  .md-hidden{
+    display: none;
+  }
+}
+@media (max-width:768px) {
+  .standard-width{
+     width: 90vw;
+  }
+}
+@media (max-width:600px) {
+  .standard-width{
+     width: 100vw;
+  }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
